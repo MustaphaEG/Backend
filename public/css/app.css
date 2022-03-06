@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 4, 2022, 2:48:23 AM
+    Author     : Hp Z640
+*/
+
+html{
+    background-color: #eee
+}
+
+#app{
+    min-width: 40%;
+    width: 40%;
+    height: 600px;
+    background-color: #aaa;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid 2px green;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+#app .row-input{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+}
+
+#app .row-input .lable{
+    width: 25%;
+}
+
+#app .input{
+    width: 60%;
+    padding: 7px;
+}
+
+
+.image-view-unit{
+    height: 60px;
+}
+
+#image-list-view ul{
+    display: flex;
+    flex-flow: row;
+    min-height: 60px;
+}
+
+#image-list-view ul li{
+    margin-left: 10px;
+}
+
+
+.image-view-delete{
+    
+    background: rgba(0,0,0,0.7);
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 5px;
+    
+}
+
+
+#create-camp-wrapper .btn{
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
