@@ -1,0 +1,314 @@
+#topic-list-wrapper .recommend-unit{
+    width: 215px;
+    height: 230px;
+    margin: 12px 0px;
+    
+}
+#topic-list-wrapper {
+    padding: 10px;
+    flex-flow: wrap;
+    justify-content: space-around
+}
+
+#topic-list-header , #topic-header{
+    padding: 30px 15px 10px 15px;
+    border-bottom: none !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    margin-bottom: 0px !important
+}
+
+#topic-list-header + .mid-unit, #topic-header + .mid-unit{
+    border-top: none !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    margin-top: 0px !important
+}
+#recomened-space-wrapper .page-list{
+    justify-content: center;
+    align-items: center;
+}
+#recomened-space-wrapper .page-list .list-wrapper{
+    height: 45px;
+}
+
+#topic-cover .cover-wrapper{
+    width: 100%;
+    max-width: 658px;
+    margin: auto;
+}
+#topic-cover .cover-wrapper .cover{
+    height: 164px;
+    margin-top: 15px;
+}
+
+#topic-cover .cover-wrapper .cover .cover-image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+#topic-cover .cover-wrapper  .image-wrapper{
+    height: 80px;
+    margin-bottom: 5px;
+    margin-top: -50px;
+}
+
+#topic-cover .cover-wrapper  .image-wrapper .image{
+    height: 100%;
+    text-align: center;
+}
+
+#topic-cover .cover-wrapper  .image-wrapper .image img{
+    height: 80px;
+    border: solid 1px #e7e7e7;
+    border-radius: 10px;
+    
+}
+#topic-cover .cover-wrapper  .topic-detail .brief-s-wrapper, 
+#topic-cover .cover-wrapper  .topic-detail .brief-l-wrapper
+{
+ margin:  0 15px;   
+}
+
+#topic-cover .cover-wrapper  .topic-detail .brief-s-wrapper{
+    font-size: 16px;
+}
+#topic-cover .cover-wrapper  .topic-detail{
+    width: 95%;
+    margin: auto;
+}
+#topic-cover .cover-wrapper .title h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#topic-cover .option-bar .wrapper{
+    justify-content: space-between;
+    align-content: center;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+#topic-cover .option-bar .wrapper button{
+    width: 100px;
+    height: 35px;
+    margin: 5px 0px;
+    border: none;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+   line-height: 35px;
+
+}
+
+#topic-cover .option-bar .wrapper button .icon{
+    height: 100%;
+    width: 25px;
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#topic-cover .option-bar .wrapper button:hover{
+    background-color: #edefef;
+    cursor: pointer;
+    border-radius: 2px;
+   
+}
+
+#topic-cover .option-bar .wrapper button:hover div{
+   /* filter: brightness(0) invert(1);*/
+     
+}
+#topic-cover .option-bar .wrapper .right .list{
+    justify-content: space-between;
+    min-width: 225px;
+}
+#topic-cover .option-bar .wrapper .follow .icon{
+   background-image: url(../image/icon/follow.svg);
+}
+#topic-cover .option-bar .wrapper .notif .icon{
+   background-image: url(../image/icon/notifyMe.svg);
+}
+#topic-cover .option-bar .wrapper .menu .icon{
+   background-image: url(../image/icon/menu.svg);
+   background-size: 100% auto;
+}
+
+#similar-topics li {
+    padding: 5px;
+    box-sizing: border-box;
+    border:  1px solid transparent;
+}
+
+#similar-topics li:hover{
+    background-color:#f5f6f7;
+    border: 1px solid #dddfe2;
+    
+}
+
+#similar-topics li .right{
+    width: 35px;
+    text-decoration: none
+}
+#similar-topics li .right  .image{
+    height: 35px
+}
+#similar-topics li .right .bg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    border: 1px solid #D4D4D4;
+    border-radius: 2px
+}
+
+#similar-topics li .left{
+    margin: 0px 15px;
+    
+}
+
+#similar-topics li .left .follower{
+    color: #aaa;
+}
+
+
+#topic-follow-home.topic-home-unfollow{
+    width: 120px !important; 
+    color:white;
+    background-color: #1a73e8 !important;
+    font-size: 14px;
+    margin-left: 15px !important;
+    border-radius: 2px;
+    
+}
+
+#topic-follow-home.topic-home-unfollow .icon{
+    filter: brightness(0) invert(1);
+}
+#topic-follow-home.topic-home-unfollow:hover{
+    background-color: #1967d2 !important;
+}
+
+#topic-follow-home img{
+    height: 100%;
+}
+
+#topic-follow-home.topic-home-unfollow img
+{
+    filter: brightness(0) invert(1);
+}
+
+#addTagByModer{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+}
+
+#over-layer-wrapper{
+}
+
+#over-layer-trans{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+#over-layer-trans .content-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list-to-add-tag-moder{
+    width: 80%;
+    height: 70%;
+    max-width: 850px;
+    
+}
+
+#list-to-add-tag-moder .content{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 3px;
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+#list-to-add-tag-moder .content .search-bar{
+    border-bottom: solid 1px #eee;
+    margin: 5px 10px;
+}
+
+#list-to-add-tag-moder .content .search-bar .input{
+    margin: 10px 0px;
+    direction: rtl;
+}
+#list-to-add-tag-moder .content .search-bar .input input{
+    text-align: right;
+    padding: 5px 10px;
+    border: solid 1px #ddd;
+    border-radius: 2px;
+}
+
+#list-to-add-tag-moder .content .tag-list li{
+    padding:5px 12px;
+    border: solid 1px #ddd;
+    margin: 3px 8px ;
+    background-color:#f7f7f7;
+    border-radius: 3px;
+    font-size: 14px;
+    color:#666;
+    border: solid 0.5px#f0f0f0;
+    text-decoration: none;
+    direction: ltr;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list-to-add-tag-moder .content .tag-list li .check-box{
+    margin-left: 10px;
+}
+
+#list-to-add-tag-moder .content .tag-list-wrapper ul{
+    flex-flow: wrap
+}
+#list-to-add-tag-moder .content .tag-list-wrapper{
+    height: 100%;
+    overflow: auto;
+    margin: 0px 15px;
+}
+#list-to-add-tag-moder .content .save{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin: 0px 15px;
+}
+
+
+#list-to-add-tag-moder .content .page-list{
+    margin: 15px 20px;
+}
+
+#similar-topics ul{
+    flex-flow: column
+}

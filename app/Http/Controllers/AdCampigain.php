@@ -57,7 +57,7 @@ class AdCampigain extends Controller {
     }
 
     public function edittotal(Request $request, int $id) {
-
+        $request->ip();
         $Camp = Campaign::findOrFail($id);
         $OuthUser = $this->authedUser($Camp->id_user);
         if ($OuthUser !== true)

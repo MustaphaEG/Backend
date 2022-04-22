@@ -1,0 +1,289 @@
+#wrapper-top{
+    background: url("../image/background/greenWave.png") ,linear-gradient(to left, #76b852, #8DC26F);
+    min-height: 528px;
+    background-size: auto 150%;
+    background-repeat: no-repeat;
+    position: relative
+    
+}
+
+#wrapper-top:after{
+    background: transparent url("../image/background/whiteWave.svg") top center no-repeat;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 168px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    pointer-events: none
+}
+
+.float-image{
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    right: 45px;
+    margin-top: -300px;
+    background: transparent url("../image/background/bulbIdea.png") bottom right no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+#wrapper-top .content{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+#wrapper-top .content .logo-wrapper{
+}
+
+#wrapper-top .content .logo-wrapper .logo{
+    background:#FFFFFF;
+    max-width: 360px;
+    padding: 10px 25px;
+    text-align: center;
+    box-shadow: 0 0 20px 0
+    rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#wrapper-top .content .slogan-wrapper{
+    height: 90px;
+}
+#wrapper-top .content .slogan-wrapper .slogan h1{
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#wrapper-top .content .offer-help-wrapper{
+    margin-top: 50px;
+}
+#wrapper-top .content .offer-help .title{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+#wrapper-top .content .offer-help .btn-wrapper{
+    justify-content: space-around;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    height: 150px;
+}
+#wrapper-top .content .offer-help  button{
+    border: none;
+    padding: 8px 0px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#wrapper-top .content .offer-help .sing-btn button{
+    background-color:#1a73e8;
+    color: white
+}
+
+
+#wrapper-top .content .offer-help  button:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#wrapper-top .content .offer-help .help-art button,
+#wrapper-top .content .offer-help .help-ans button{
+    background-color: white;
+    border: solid 1px #eee
+}
+
+
+.help-tip {
+    background-color: white;
+    padding: 35px 0px;
+}
+.help-tip .title-wrapper{
+    color: black;
+    font-size: 24px;
+    background-color: white;
+    height: 55px;
+    line-height: 50px;
+    text-align: center;
+}
+.help-tip .title-wrapper hr{
+    width: 100px ;
+    height: 3px;
+    color: black;
+    margin: auto;
+    background-color:  #008a00;
+    border: none;
+}
+
+
+.help-tip .brief{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center
+    
+}
+
+.help-tip .brief .desc{
+    direction: rtl;
+    flex-basis: 60%
+}
+.help-tip .brief .pragraph{
+    width: 330px;
+    font-size: 16px;
+    margin: 25px auto;
+    
+}
+
+
+.help-tip .brief .desc .btn{
+    
+    width: 120px;
+    margin: auto;
+    color: white;
+    border: solid 1px #7fe283;
+    
+}
+
+.help-tip .brief .desc .btn a{
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    padding: 7px 0px;
+}
+
+#ans-que-tip{
+    -webkit-clip-path: polygon(0 1.5vw,30% 0,60% 3vw, 100% 1vw,  100% 90%, 0 100%);
+    clip-path: polygon(0 1.5vw,30% 0,60% 3vw, 100% 1vw,  100% 100%, 0 90%);
+    background-color: #f7f7f7;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#ans-que-tip .title-wrapper{
+    background-color: transparent
+}
+
+#add-art-tip .brief .pragraph{
+    margin: auto;
+}
+
+#add-art-tip{
+    margin-bottom: 50px;
+}
+#add-art-tip .desc{
+    margin: auto;
+    margin-top:70px;
+}
+#glo-footer{
+    width: 100%;
+}
+
+#glo-footer .wrapper{
+    height: 150px;
+    background:linear-gradient(to left, #76b852, #8DC26F);
+    clip-path: polygon(0 3vw, 60% 1vw,100% 0,  100% 100%, 0 100%);
+    overflow: hidden;
+}
+#glo-footer .content{
+    width: 90%;
+    margin: auto;
+    height: 90%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#glo-footer .content .left{
+    min-width: 230px;
+    height: 100px;
+}
+#glo-footer .content .left .flex{
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#glo-footer .content .left ul li{
+    display: flex;
+    height: 100%;
+    align-items: flex-end
+    
+}
+#glo-footer .content .left ul li a{
+    width: 50px;
+    height: 50px;
+    background-size: auto 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px;
+    
+}
+
+#glo-footer .content .left ul li a:hover{
+    background-color: rgba(0,0,0,0.2)
+}
+
+#glo-footer .content .right .logo{
+    filter: brightness(0) invert(1);
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#glo-footer .content .right{
+    height: 100%;
+}
+#glo-footer .content .right-wrapper{
+    height: 100%;
+}
+#glo-footer .content .right .logo a{
+    width: 150px;
+    height: 100px;
+    background-image: url(../image/logo/logo.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#glo-footer .content .mid{
+    line-height: 50px;
+    
+}
+
+#glo-footer .content .mid li{
+    width: 80px;
+    color: white
+}
+
+#glo-footer .content .mid li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+#glo-footer .floot-slide{
+    width: 150px;
+    height: 150px;
+    background-image: url(../image/background/openBook.png);
+    background-size: contain;
+    position: absolute;
+    z-index: 100;
+    margin-top: -65px;
+    margin-left: 55px;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}

@@ -1,0 +1,287 @@
+
+#profile-header{
+    width: 100%;
+    background-color: #FFF;
+    max-width: 1264px;
+    margin: auto;
+    margin-top: 5px;
+    height: auto;
+}
+
+#profile-header .profile{
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    border: 1px solid#ddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+#glo-header .profile .user-image{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+}
+#glo-header .profile .profile-pop-up{
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    margin-right: -63px;
+    display: none;
+    
+}
+
+#profile-header .profile .profile-wrapper{
+    width: 100%;
+    height: calc(100% -10px);
+    margin-top: 10px;
+    display: flex
+}
+
+#profile-header .profile .user-avatar{
+    
+    width: 225px;
+    max-width: 225px;
+    border: solid 1px #aaa;
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: inset 0 10em 0 #eff0f1 !important;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+
+
+#profile-header .profile .user-avatar .avatar{
+    width: 100%;
+    max-width: 164px;
+    height: 164px;
+    margin: auto;
+}
+
+#profile-header .user-profiles{
+    width: 100%;
+    min-height: 100px;
+    min-height: 40px;
+    
+}
+
+#profile-header .user-profiles ul{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+#profile-header .user-profiles ul li{
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    background-repeat: no-repeat;
+    background-position: center
+}
+#profile-header .profile .user-avatar .avatar {
+    position: relative;
+    overflow: hidden;
+}
+#profile-header .profile .user-avatar .avatar:hover .avatar-edit{
+    bottom: 0
+}
+#profile-header .profile .user-avatar .avatar img{
+    width: 164px;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    box-sizing: border-box
+}
+#profile-header .profile .user-avatar .avatar .avatar-edit{
+    position: absolute;
+    bottom: -82px;
+    width: 100%;
+    transition: all 0.5s ease-in-out
+}
+
+#profile-header .profile .user-avatar .avatar .avatar-edit button{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/icon/photo-camera.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    filter: brightness(0) invert(0.85);
+    cursor: pointer
+}
+#profile-header .profile .user-avatar .avatar .avatar-edit .bg-black{
+    height: 82px;
+    background-color: rgba(0,0,0,0.3);
+    
+}
+
+
+#profile-header .user-text{
+    max-width: calc(100% - 475px);
+    width: 100%;
+}
+
+#profile-header .user-text .data-wrapper{
+    width: calc(100% - 30px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height:calc(100% - 40px)
+}
+
+#profile-header .user-text .data-wrapper .wrapper{
+    
+    width: 100%;
+}
+#profile-header .user-text .icon-wrapper{
+    height: 40px;
+    width: calc(100% - 30px);
+    margin: auto;
+}
+#profile-header .user-text .icon-wrapper .icon-list{
+    overflow:auto
+}
+#profile-header .user-text .icon-wrapper .icon-unit button{
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 15px;
+    background-color: transparent;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    border-radius: 15px;
+    display: flex;
+    cursor: pointer
+    
+}
+
+#profile-header .user-text .icon-wrapper .icon-unit .icon{
+    width: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    background-position: center;
+    cursor: pointer
+}
+
+#profile-header .user-text .icon-wrapper .icon-unit button:hover{
+    background-color: #f7f7f7
+}
+
+#profile-header .user-text .data-wrapper .name h1{
+    font-size: 2.5em
+}
+
+#profile-header .user-text .data-wrapper .mintion-name h2{
+    font-size: 14px;
+    direction: ltr;
+    color: #aaa
+}
+
+#profile-header .data-wrapper .cridental {
+    font-size: 1.3em
+}
+#profile-header .data-wrapper .bio p{
+    display: inline;
+    color: #333;
+    
+}
+
+#profile-header .user-cridental{
+    max-width:250px;
+    width: 100%;
+}
+
+#profile-header .user-cridental .cridental-wrapper ul{
+    width: 90%;
+    margin: auto;
+}
+
+#profile-header .user-cridental .cridental-wrapper ul li{
+    min-height: 25px;
+    margin-bottom: 3px;
+    color: #333
+}
+#profile-header .user-cridental .cridental-wrapper ul li .last-line{
+   color: #aaa
+}
+
+#profile-header .cridental-wrapper li .crid{
+    display: flex
+}
+
+#profile-header .cridental-wrapper li .crid .icon{
+    min-width: 30px;
+    background-position: center 7.5px;
+    background-size: auto 15px;
+    background-repeat: no-repeat
+}
+
+#right-col .new-feed-list .user-stat h1{
+    font-size: 18px;
+    line-height: 30px; 
+    border-bottom: solid 1px #333
+}
+
+#right-col .new-feed-list ul .user-li a{
+    height: 20px;
+    line-height: 20px;
+}
+
+#right-col .new-feed-list ul .user-li a .num{
+    color: #999
+}
+
+#new-full-name-input{
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 0px 15px;
+}
+
+.save-btn{
+    margin: 0px 10px;
+    color: white;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.save-btn .inf-loader{
+    height: 100%;
+    filter: brightness(0) invert(1)
+}
+.save-btn:hover{
+    background-color: #1967d2;
+}
+
+
+#USER_QUES .feed-unit{
+    margin: 3px 0 !important;
+}
+
+#user-feed-header{
+    
+    padding: 15px;
+    margin-bottom: 0px !important;
+    border-bottom: none !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+#user-feed-header + .glo-unit{
+    margin-top: 0px !important;
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
